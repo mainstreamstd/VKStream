@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <AutoCompleteTextView
+            android:id="@+id/audio_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoText="true"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="Поиск по музыке"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+        android:layout_weight="0.43" >
+
+        <TextView
+            android:id="@+id/global_audio_null_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/null_result_text"
+            android:textColor="@color/color_black" />
+
+        <ListView
+            android:id="@+id/audioArray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/global_audios_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+ 
+
+</LinearLayout>

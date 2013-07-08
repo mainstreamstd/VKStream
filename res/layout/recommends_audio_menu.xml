@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ListView
+        android:id="@+id/rAudioArray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/refresh_recommends_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="getRecommendsAudios"
+        android:text="@string/get_text" />
+
+    <ProgressBar
+        android:id="@+id/recommends_audios_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/null_recommends_audio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="@string/null_result_text"
+        android:textColor="@color/color_black" />
+    
+</FrameLayout>

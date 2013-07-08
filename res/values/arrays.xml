@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="audio_sort_items">
+		<item>Популярность</item>
+		<item>Длительность</item>
+		<item>Дата добавления</item>
+	</string-array>
+ 
+     <string-array name="audio_sort_values">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+	
+     <string-array name="video_sort_items">
+		<item>По релевантности</item>
+		<item>По длительности</item>
+		<item>По дате добавления</item>
+	</string-array>
+ 
+     <string-array name="video_sort_values">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+    
+</resources>

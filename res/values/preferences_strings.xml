@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+       	 
+   	 
+   	<string name="pref_audio_category_title">Музыка</string>
+   	<string name="pref_video_category_title">Видео</string>
+   	<string name="pref_main_category_title">Общие</string> 
+
+   	<string name="pref_buy_pro_key">buy_pro_name</string>
+    <string name="pref_buy_pro_title">Купить PRO</string>
+    <string name="pref_buy_pro_summary">Купить версию без рекламы</string>
+   	
+   	<string name="pref_audio_folder_name_key">audio_folder_name</string>
+   	<string name="pref_video_folder_name_key">video_folder_name</string>
+   		
+    <string name="pref_audio_folder_key">audio_folder</string>
+    <string name="pref_audio_folder_title">Папка для хранения музыки</string>
+    <string name="pref_audio_folder_summary">Задать путь к папке для хранения музыки</string>
+    <string name="pref_audio_folder_dialog_title">Введите название для папки</string>
+    
+    <string name="pref_audio_history_key">audio_history_state</string>
+    <string name="pref_audio_history_title">Выводить историю поиска</string>
+    <string name="pref_audio_history_on">История поиска будет выводиться</string>
+    <string name="pref_audio_history_off">История поиска не будет выводиться</string>
+    
+    <string name="pref_audio_sort_key">audio_sort</string>
+    <string name="pref_audio_sort_title">Сортировка</string>
+    <string name="pref_audio_sort_summary">Выбор сортировки найденных аудиозаписей</string>
+    <string name="pref_audio_sort_dialog_title">Выбирите тип сортировки:</string>
+     
+    
+    
+    <string name="pref_audio_clear_history_key">audio_clearhist_pref</string>
+    <string name="pref_audio_clear_history_title">Очистить историю</string>
+    <string name="pref_audio_clear_history_summary">Очистить историю поиска музыки</string>
+
+    <string name="pref_video_folder_key">video_folder</string>
+    <string name="pref_video_folder_title">Папка для хранения видео</string>
+    <string name="pref_video_folder_summary">Задать путь к папке для хранения видеозаписей</string>
+    <string name="pref_video_folder_dialog_title">Введите название для папки</string>
+    
+    <string name="pref_video_history_key">video_history_state</string>
+    <string name="pref_video_history_title">Выводить историю поиска</string>
+    <string name="pref_video_history_on">История поиска будет выводиться</string>
+    <string name="pref_video_history_off">История поиска не будет выводиться</string>
+    
+
+    
+    <string name="pref_video_allowcache_key">video_allowcache_state</string>
+    <string name="pref_video_allowcache_title">Сохранять превью</string>
+    <string name="pref_video_allowcache_on">Сохранение включено. </string>
+    <string name="pref_video_allowcache_off">Сохранение отключено.</string>
+    
+    <string name="pref_video_sort_key">video_sort</string>
+    <string name="pref_video_sort_title">Сортировка</string>
+    <string name="pref_video_sort_summary">Выбор сортировки найденных видеозаписей</string>
+    <string name="pref_video_sort_dialog_title">Выбирите тип сортировки:</string>
+    
+    
+    <string name="pref_video_clear_history_key">video_clearhist_pref</string>
+    <string name="pref_video_clear_history_title">Очистить историю</string>
+    <string name="pref_video_clear_history_summary">Очистить историю поиска видео</string>
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VK Stream</string>
+
+    
+    <string name="audio_tab_text">Music</string>
+    <string name="video_tab_text">Video</string>
+    <string name="next_button_text">Text</string>
+    
+    <string name="get_text">Refresh</string>
+    <string name="null_result_text">No results found</string>
+   	 
+    <string name="activity_menu_label">VK Stream</string>
+    <string name="activity_login_label">Sign in</string>
+    <string name="activity_audio_label">Music</string>
+    <string name="activity_video_label">Video</string>
+	<string name="activity_settings_label">Settings</string>
+	<string name="activity_folders_label">Please, choose a folder</string>
+	<string name="activity_shazam_label">VK Stream</string>
+	
+	<string name="menuitem_settings_label">Settings</string>
+	<string name="menuitem_video_label">Search video</string>
+	<string name="menuitem_audio_label">Search music</string>
+	<string name="menuitem_refresh_label">Refresh</string>
+	<string name="menuitem_shazam_label">Shazam</string>
+	
+	<string name="header_search_audios">Search music</string>
+	<string name="header_my_audios">My music</string>
+	<string name="header_recommends_audios">Recommendations</string>
+	<string name="header_search_videos">Search video</string>
+	<string name="header_my_videos">My video</string>
+	
+	<string name="dialog_autorize_vk_title">Authorization</string>
+	<string name="dialog_autorize_vk_message">To access your list, you need to sign in.\nSign in?</string>
+	<string name="dialog_autorize_message">Authorization...</string>
+	<string name="dialog_load_message">Loading..</string>
+	<string name="dialog_audio_prepare_message">Preparing for playback...</string>
+	<string name="dialog_not_shazam_title">Shazam is not installed.</string>
+	<string name="dialog_not_shazam_message">By installing Shazam, you can identify the tracks and immediately seek them through VK Stream.\nProceed to download?</string>
+	<string name="dialog_video_flv_item">View in flv</string>
+	<string name="dialog_video_load_flv_item">Download in flv</string>
+	<string name="dialog_choose_qual_title">Choose video quality:</string>
+	<string name="dialog_video_locked_title">Video is not available</string>
+	<string name="dialog_video_locked_message">Video is on the unsupported hosting.\nDo you want to search for similar names?</string>
+	<string name="dialog_rutube_alert_title">Oops!</string>
+	<string name="dialog_rutube_alert_message">Only at this stage, we found out that this video from Rutube.\nIn most cases the viewing is not possible.</string>
+	<string name="dialog_rutube_view">View</string>
+	<string name="dialog_rutube_close">Close</string>
+	<string name="dialog_video_analize">Video analysis...</string>
+	<string name="dialog_confirm_action_title">Confirm the action</string>
+	<string name="dialog_clear_audio_hist_message">Are you sure you want to clear the music search history?</string>
+	<string name="dialog_clear_video_hist_message">Are you sure you want to clear the video search history?</string>
+	<string name="dialog_new_version_title">Welcome to VK Stream!</string>
+	<string name="dialog_new_version_message">Welcome.\nWe hope you will help this program.\nYou can support the developer by buying the Pro version =)</string>
+	
+	<string name="button_login_text">Sign in</string>
+	<string name="button_unlogin_text">Sign out</string>
+	<string name="button_positive">Yes</string>
+	<string name="button_negative">No</string>
+	<string name="button_ok">Ok</string>
+	
+	<string name="text_load">Downloading</string>
+	<string name="text_load_audio">Downloading music </string>
+	<string name="text_load_video">Downloading video </string>
+	<string name="text_load_complete">Download completed.</string>
+	<string name="text_load_complete_end">completed.</string>
+	<string name="text_delete_complete">Delete completed.</string>
+	<string name="text_views_ic">Views:</string>
+	<string name="text_play_audio">Music playback</string>
+	<string name="text_hd">HD</string>
+	
+	<string name="text_autorize_prompt">You are authorized as</string>
+	<string name="text_not_autorize_prompt">You are not authorized.</string>
+	<string name="text_shazam_usage_prompt">Shazam -> Shared use -> VK Stream</string>
+	<string name="text_not_connection_prompt">This feature is not available because you are not connected to the Internet.</string>
+	<string name="text_not_connection_prompt_2">Internet connection is not available.</string>
+	<string name="text_empty_request_prompt">You entered an empty query.</string>
+	<string name="text_wait_prompt">Please wait...</string>
+	<string name="text_add_item_prompt">Added to the list.</string>
+	<string name="text_remove_audio_item_prompt">Delete is completed. Please update the list.</string>
+	<string name="text_remove_video_item_prompt">Delete is completed. Please update the list.</string>
+	<string name="text_choose_cancel_prompt">Canceled.</string><string name="audio_menu_list_head">Музыка</string><string name="video_menu_list_head">Видео</string>
+	
+	
+</resources>

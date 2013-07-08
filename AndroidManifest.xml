@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.mainstream.vkstream"
+    android:installLocation="auto"
+    android:launchMode="singleTop"
+    android:versionCode="1970"
+    android:versionName="1.9.7" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name="ru.mainstream.vkstream.VKstreamMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.MenuAct"
+            android:label="@string/activity_menu_label"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.Login"
+            android:configChanges="orientation"
+            android:label="@string/activity_login_label"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.AudioFinder"
+            android:label="@string/activity_audio_label"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.VideoFinder"
+            android:label="@string/activity_video_label"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+    
+        <activity
+            android:name="ru.mainstream.vkstream.SettingsActivity"
+            android:label="@string/activity_settings_label"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.FoldersActivity"
+            android:label="@string/activity_folders_label"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="ru.mainstream.vkstream.ShazamShareAction"
+            android:label="@string/activity_shazam_label"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <service
+            android:name="ru.mainstream.vkstream.AudioPlayService"
+            android:process=":VKSAudioPlayService" >
+        </service>
+        <service android:name="ru.mainstream.vkstream.tools.PlayerbarCloseTool" />
+        <service android:name="ru.mainstream.vkstream.DownloadService" />
+      
+    </application>
+
+</manifest>

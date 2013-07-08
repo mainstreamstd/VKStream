@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+    
+    
+     <PreferenceCategory android:title="@string/pref_main_category_title">
+         
+         <Preference 
+             android:title="@string/pref_buy_pro_title" 
+             android:key="@string/pref_buy_pro_key" 
+             android:summary="@string/pref_buy_pro_summary"/>
+         
+      </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_audio_category_title">
+        
+        <Preference 
+             android:title="@string/pref_audio_folder_title" 
+             android:key="@string/pref_audio_folder_key" 
+             android:summary="@string/pref_audio_folder_summary"/>
+        
+         <ListPreference
+             android:entries="@array/audio_sort_items" 
+            android:entryValues="@array/audio_sort_values" 
+            android:defaultValue="@string/pref_audio_sort_default"
+             android:dialogTitle="@string/pref_audio_sort_dialog_title" 
+             android:title="@string/pref_audio_sort_title" 
+             android:key="@string/pref_audio_sort_key"
+             android:summary="@string/pref_audio_sort_summary" />
+        
+        <CheckBoxPreference 
+            android:key="@string/pref_audio_history_key"
+            android:title="@string/pref_audio_history_title" 
+            android:summaryOn="@string/pref_audio_history_on" 
+            android:summaryOff="@string/pref_audio_history_off" 
+            android:defaultValue="@bool/pref_audio_history_default"
+             />
+             
+        
+        
+        <Preference 
+                android:key="@string/pref_audio_clear_history_key"
+                android:title="@string/pref_audio_clear_history_title"
+                android:summary="@string/pref_audio_clear_history_summary"/>
+        
+</PreferenceCategory>
+
+    <PreferenceCategory 
+        
+        android:title="@string/pref_video_category_title">
+        
+        <Preference 
+             android:title="@string/pref_video_folder_title" 
+             android:key="@string/pref_video_folder_key" 
+             android:summary="@string/pref_video_folder_summary"
+/>
+        
+         <ListPreference 
+            android:entries="@array/video_sort_items"
+             android:entryValues="@array/video_sort_values"
+              android:defaultValue="@string/pref_video_sort_default" 
+              android:dialogTitle="@string/pref_video_sort_dialog_title"
+               android:title="@string/pref_video_sort_title" 
+               android:key="@string/pref_video_sort_key" 
+               android:summary="@string/pref_video_sort_summary"/>
+        
+        <CheckBoxPreference 
+            android:key="@string/pref_video_history_key"
+            android:title="@string/pref_video_history_title" 
+            android:summaryOn="@string/pref_video_history_on" 
+            android:summaryOff="@string/pref_video_history_off" 
+            android:defaultValue="@bool/pref_video_history_default"
+             />
+
+   		 <CheckBoxPreference 
+   		     android:summaryOff="@string/pref_video_allowcache_off" 
+   		     android:summaryOn="@string/pref_video_allowcache_on" 
+   		     android:title="@string/pref_video_allowcache_title" 
+   		     android:key="@string/pref_video_allowcache_key" 
+   		     android:defaultValue="@bool/pref_video_cache_default"/>
+   		 
+   		 
+         <Preference 
+                android:title="@string/pref_video_clear_history_title"
+                android:key="@string/pref_video_clear_history_key"
+                android:summary="@string/pref_video_clear_history_summary"/>
+         
+   		 </PreferenceCategory>
+    
+
+
+</PreferenceScreen>

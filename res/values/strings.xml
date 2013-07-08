@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VK Stream</string>
+
+    
+    <string name="audio_tab_text">Музыка</string>
+    <string name="video_tab_text">Видео</string>
+    <string name="next_button_text">Далее</string>
+    
+    <string name="get_text">Обновить</string>
+    <string name="null_result_text">Ничего не найдено</string>
+    <string name="null_friends_result_text">Печально, но у вас нет друзей =(</string>
+   	 
+    <string name="activity_menu_label">VK Stream</string>
+    <string name="activity_login_label">Вход</string>
+    <string name="activity_audio_label">Музыка</string>
+    <string name="activity_video_label">Видео</string>
+    <string name="activity_groups_audios_label">Музыка сообществ</string>
+	<string name="activity_settings_label">Настройки</string>
+	<string name="activity_folders_label">Выберите папку</string>
+	<string name="activity_shazam_label">VK Stream</string>
+	<string name="activity_friends_audio_label">Друзья</string>
+	
+	<string name="menuitem_settings_label">Настройки</string>
+	<string name="menuitem_video_label">Поиск видео</string>
+	<string name="menuitem_audio_label">Поиск музыки</string>
+	<string name="menuitem_refresh_label">Обновить</string>
+	<string name="menuitem_shazam_label">Shazam</string>
+	
+	<string name="header_search_audios">Поиск музыки</string>
+	<string name="header_my_audios">Моя музыка</string>
+	<string name="header_recommends_audios">Рекомендации</string>
+	<string name="header_search_videos">Поиск видео</string>
+	<string name="header_my_videos">Моё видео</string>
+	<string name="header_my_friends">Друзья</string>
+	<string name="header_my_groups">Сообщества</string>
+	
+	<string name="dialog_autorize_vk_title">Авторизация</string>
+	<string name="dialog_autorize_vk_message">Для доступа к вашим спискам необходимо войти на сайт.\nАвторизироваться?</string>
+	<string name="dialog_autorize_message">Авторизация...</string>
+	<string name="dialog_load_message">Загрузка..</string>
+	<string name="dialog_audio_prepare_message">Подготовка к воспроизведению...</string>
+	<string name="dialog_not_shazam_title">Shazam отсутствует.</string>
+	<string name="dialog_not_shazam_message">Установив Shazam, вы сможете опознавать треки и сразу искать их через VK Stream.\nПерейти к загрузке?</string>
+	<string name="dialog_video_flv_item">Просмотр в flv</string>
+	<string name="dialog_video_load_flv_item">Загрузить в flv</string>
+	<string name="dialog_choose_qual_title">Выберите качество видео:</string>
+	<string name="dialog_video_locked_title">Видео недоступно</string>
+	<string name="dialog_video_locked_message">Данное видео находится на неподдерживаемом хостинге.\nВыполнить поиск по аналогичным названиям?</string>
+	<string name="dialog_rutube_alert_title">Упс!</string>
+	<string name="dialog_rutube_alert_message">Только на этом этапе мы выясняли, что данное видео с Rutube.\nВ большинстве случаев просмотр будет невозможен.</string>
+	<string name="dialog_rutube_view">Просмотреть</string>
+	<string name="dialog_rutube_close">Закрыть</string>
+	<string name="dialog_video_analize">Анализ видео...</string>
+	<string name="dialog_confirm_action_title">Подтверждение действия</string>
+	<string name="dialog_clear_audio_hist_message">Вы уверены, что хотите очистить историю поиска музыки?</string>
+	<string name="dialog_clear_video_hist_message">Вы уверены, что хотите очистить историю поиска видео?</string>
+	<string name="dialog_new_version_title">Добро пожаловать в VK Stream.</string>
+	<string name="dialog_new_version_message">Надеемся, эта программа окажется для вас полезной.\nВы можете поддержать разработчика, купив PRO версию без рекламы.\n(доступно из настроек)</string>
+	
+	<string name="button_login_text">Вход</string>
+	<string name="button_unlogin_text">Выход</string>
+	<string name="button_positive">Да</string>
+	<string name="button_negative">Нет</string>
+	<string name="button_ok">Ок</string>
+	
+	<string name="text_load">Загрузка</string>
+	<string name="text_load_audio">Загрузка песни </string>
+	<string name="text_load_video">Загрузка видео </string>
+	<string name="text_load_complete">Загрузка завершена.</string>
+	<string name="text_load_complete_end">завершена.</string>
+	<string name="text_delete_complete">Удаление завершено.</string>
+	<string name="text_views_ic">Просмотров:</string>
+	<string name="text_play_audio">Воспроизведение музыки</string>
+	<string name="text_hd">HD</string>
+	
+	<string name="text_autorize_prompt">Вы авторизировались как</string>
+	<string name="text_not_autorize_prompt">Вы не авторизированы.</string>
+	<string name="text_shazam_usage_prompt">Shazam -> Совместное использование -> VK Stream</string>
+	<string name="text_not_connection_prompt">Данная функция недоступна, так как вы не подключены к интернету.</string>
+	<string name="text_not_connection_prompt_2">Подключение к интернету отсутствует.</string>
+	<string name="text_empty_request_prompt">Вы ввели пустой запрос.</string>
+	<string name="text_wait_prompt">Подождите...</string>
+	<string name="text_add_item_prompt">Добавление завершено.</string>
+	<string name="text_remove_audio_item_prompt">Удаление завершено. При обновлении списка аудиозапись исчезнет.</string>
+	<string name="text_remove_video_item_prompt">Удаление завершено. При обновлении списка видео исчезнет.</string>
+	<string name="text_choose_cancel_prompt">Выбор был отменён.</string>
+
+	<string name="init_screen_text">Инициализация..</string>
+
+
+	<string name="action_expand_text">Еще</string>
+	<string name="dialog_capcha_title">Введите капчу:</string>	
+	<string name="button_send_capcha">Отправить</string><string name="audio_menu_list_head">Музыка</string><string name="video_menu_list_head">Видео</string>
+	
+</resources>

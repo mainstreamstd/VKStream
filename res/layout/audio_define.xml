@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageButton
+        android:id="@+id/audio_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#0000"
+        android:src="@drawable/audio_image" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/audio_duration_text"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/audio_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="#0000"
+            android:longClickable="false"
+            android:src="@drawable/audio_play_button_indicator" />
+
+        <ImageButton
+            android:id="@+id/audio_load_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="#0000"
+            android:src="@drawable/load_button_indicator" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_container_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/progress_container"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/audio_logo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/audio_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/text_title_size" />
+
+        <TextView
+            android:id="@+id/audio_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/text_primary_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_container_1"
+        android:layout_toLeftOf="@+id/linearLayout1" >
+
+        <ProgressBar
+            android:id="@+id/audio_buffered_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <SeekBar
+            android:id="@+id/audio_playing_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:progressDrawable="@drawable/invis"
+            android:thumb="@drawable/scroll"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/audio_duration_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true"
+        android:textColor="@color/color_black"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+</RelativeLayout>

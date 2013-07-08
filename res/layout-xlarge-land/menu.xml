@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/loginView"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/login_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/login_text_color"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/login_info_text" />
+
+    <ImageView
+        android:id="@+id/capcha_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_down_tablet_land" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <ImageButton
+            android:id="@+id/menu_audio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:background="#00000000"
+            android:onClick="goToAudio"
+            android:src="@drawable/audio_menu_indicator" />
+
+        <ImageButton
+            android:id="@+id/menu_video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:background="#00000000"
+            android:onClick="goToVideo"
+            android:src="@drawable/video_menu_indicator" />
+    </LinearLayout>
+
+</RelativeLayout>

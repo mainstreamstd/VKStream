@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_screen_text_size">15sp</dimen>
+    
+    <dimen name="text_title_size">17sp</dimen>
+    <dimen name="text_primary_size">13sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+    
+    <dimen name="notification_text_title_size">14sp</dimen>
+    <dimen name="notification_text_primary_size">14sp</dimen>
+    
+    <dimen name="video_text_title_size">15sp</dimen>
+
+    <dimen name="slidingmenu_offset">20dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    
+</resources>

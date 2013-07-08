@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="admob_publisher_id">a150f457dc37437</string>
+    <string name="default_token">940ea9cc1450e59a751e7866eb3fa91abed8320dc5c595e91c793dc0ab5694e115456febd3fdc684cccc3</string>
+    
+    <string name="default_audio_folder_path">/Music/</string>
+    <string name="default_video_folder_path">/Videos/</string>
+    
+    
+    <integer name="max_audios_count">20</integer>
+    <integer name="max_videos_count">100</integer>
+    
+    <bool name="pref_audio_history_default"> true </bool>
+    <bool name="pref_video_history_default"> true </bool>
+    <string name="pref_audio_sort_default">2</string>
+    <string name="pref_video_sort_default">2</string>
+    <bool name="pref_audio_savestate_default"> true </bool>
+    <bool name="pref_video_savestate_default"> true </bool>
+    <bool name="pref_video_hd_only_default"> false </bool>
+    <bool name="pref_video_cache_default"> true </bool>
+    
+    
+</resources>

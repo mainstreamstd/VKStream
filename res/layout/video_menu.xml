@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/video_menu" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <AutoCompleteTextView
+            android:id="@+id/video_search_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoText="true"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="Поиск по видео"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+        <CheckBox
+            android:id="@+id/hd_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:text="@string/text_hd" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/video_null_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/null_result_text"
+            android:textColor="@color/color_black" />
+
+        <ListView
+            android:id="@+id/videoArray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:cacheColorHint="#00000000" >
+
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/global_videos_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</LinearLayout>
