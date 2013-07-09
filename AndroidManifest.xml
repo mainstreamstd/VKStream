@@ -4,6 +4,7 @@
     android:installLocation="auto"
     android:launchMode="singleTop"
     android:versionCode="1970"
+
     android:versionName="1.9.7" >
 
     <uses-sdk
