@@ -14,7 +14,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="libs" level="project" />
-    <orderEntry type="module" module-name="SlidingMenu" />
+    <orderEntry type="module" module-name="actionbar" scope="PROVIDED" />
   </component>
 </module>
 

@@ -8,8 +8,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
 import com.google.analytics.tracking.android.EasyTracker;
 
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+
 import com.perm.kate.api.Api;
 
 import ru.mainstream.vkstream.tools.UserPrefs;
@@ -30,7 +29,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class MenuAct extends SlidingFragmentActivity {
+public class MenuAct extends SherlockActivity {
 
 
 
@@ -53,26 +52,6 @@ public class MenuAct extends SlidingFragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
 
-        SlidingMenu sm = getSlidingMenu();
-        sm.setShadowWidthRes(R.dimen.shadow_width);
-        sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
-        sm.setFadeDegree(0.35f);
-        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-
-        getSlidingMenu().setMode(SlidingMenu.LEFT_RIGHT);
-        getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-
-        getSlidingMenu().setMenu(R.layout.audio_menu_content);
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.audio_menu_list, new AudioMenuFragment())
-                .commit();
-
-        getSlidingMenu().setSecondaryMenu(R.layout.video_menu_content);
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.video_menu_list, new AudioMenuFragment())
-                .commit();
 
         view = (WebView)findViewById(R.id.loginView);
         loginButton = (Button) findViewById(R.id.login_button);
