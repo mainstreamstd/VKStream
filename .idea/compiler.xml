@@ -4,8 +4,8 @@
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
-      <directory url="file://$USER_HOME$/SlidingMenu-master/library/gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/../../../actionbar/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../SlidingMenu-master/library/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/actionbar/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
