@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/SlidingMenu-master/library/SlidingMenu.iml" filepath="$USER_HOME$/SlidingMenu-master/library/SlidingMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/VK Stream.iml" filepath="$PROJECT_DIR$/VK Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" />
     </modules>
   </component>
 </project>

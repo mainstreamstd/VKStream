@@ -6,6 +6,7 @@
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
       <directory url="file://$USER_HOME$/SlidingMenu-master/library/gen" includeSubdirectories="true" />
       <directory url="file://$USER_HOME$/actionbar/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/libs/actionbarsherlock/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -23,6 +24,7 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="1.6" />
   </component>
 </project>
 
